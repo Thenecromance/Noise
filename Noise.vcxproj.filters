@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\Noisy">
+      <UniqueIdentifier>{25b28faf-5572-4677-ad00-0e18bc7e6268}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Noisy\Perlin">
+      <UniqueIdentifier>{09ca5818-e7e1-4080-8711-8b1285538c09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Noisy\Value">
+      <UniqueIdentifier>{27c45c30-ada2-486c-a7f3-dc9874738d0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Noisy\Simplex">
+      <UniqueIdentifier>{1305b349-a556-4410-b690-c34aded6643e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Img">
+      <UniqueIdentifier>{3b1d29f4-93e6-4fd5-92f3-f2253c493534}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Noise.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Noisy\NoiseBase.cpp">
+      <Filter>源文件\Noisy</Filter>
+    </ClCompile>
+    <ClCompile Include="Noisy\Perlin\Perlin.cpp">
+      <Filter>源文件\Noisy\Perlin</Filter>
+    </ClCompile>
+    <ClCompile Include="Noisy\Value\ValueNoise.cpp">
+      <Filter>源文件\Noisy\Value</Filter>
+    </ClCompile>
+    <ClCompile Include="Noisy\Simplex\Simplex.cpp">
+      <Filter>源文件\Noisy\Simplex</Filter>
+    </ClCompile>
+    <ClCompile Include="Img\lodepng.cpp">
+      <Filter>源文件\Img</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Noisy\NoiseBase.h">
+      <Filter>源文件\Noisy</Filter>
+    </ClInclude>
+    <ClInclude Include="Noisy\Perlin\Perlin.h">
+      <Filter>源文件\Noisy\Perlin</Filter>
+    </ClInclude>
+    <ClInclude Include="Noisy\Value\ValueNoise.h">
+      <Filter>源文件\Noisy\Value</Filter>
+    </ClInclude>
+    <ClInclude Include="Noisy\Simplex\Simplex.h">
+      <Filter>源文件\Noisy\Simplex</Filter>
+    </ClInclude>
+    <ClInclude Include="Img\lodepng.h">
+      <Filter>源文件\Img</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
